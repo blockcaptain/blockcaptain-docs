@@ -27,6 +27,8 @@ jobs:
       - name: Get GH Pages Repo
         uses: actions/checkout@v2
         with:
+          fetch-depth: 0
+          token: ${{ secrets.BOT_TOKEN }}
           repository: paranoidnas/paranoidnas.github.io
           path: pages
       - name: Publish
