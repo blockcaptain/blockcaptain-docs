@@ -26,9 +26,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r code/requirements.txt
-          python3 -c "import sys; print(sys.path)"
-          echo $PATH
-          which mkdocs
       - name: Workaround Snippets Issue
         working-directory: code
         run: |

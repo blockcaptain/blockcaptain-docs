@@ -1,6 +1,6 @@
 site_name: paranoidNAS
-repo_name: wpbrown/paranoidnas
-repo_url: https://github.com/wpbrown/paranoidnas
+repo_name: paranoidnas/paranoidnas
+repo_url: https://github.com/paranoidnas/paranoidnas
 theme:
   name: material
   palette:
@@ -18,7 +18,10 @@ nav:
   - Home: index.md
   - Getting started: getting-started.md
   - Design: design.md
+  - Post-Installation: post-install.md
   - Monitoring: monitoring.md
   - Cloud Backup: cloud-backup.md
   - Recovery: recovery.md
+  - System Services: system-services.md
+  - Hosting Services: hosting-services.md
   - Contributing: contributing.md
