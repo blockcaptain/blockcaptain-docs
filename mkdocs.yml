@@ -7,6 +7,9 @@ theme:
     scheme: default
     primary: indigo
     accent: indigo
+  font:
+    text: Fira Sans
+    code: Fira Code
 markdown_extensions:
   - codehilite
   - admonition
