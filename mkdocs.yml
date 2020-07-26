@@ -1,6 +1,6 @@
-site_name: paranoidNAS
-repo_name: paranoidnas/paranoidnas
-repo_url: https://github.com/paranoidnas/paranoidnas
+site_name: BlockCaptain
+repo_name: blockcaptain/blockcaptain
+repo_url: https://github.com/blockcaptain/blockcaptain
 theme:
   name: material
   palette:
