@@ -39,7 +39,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.BOT_TOKEN }}
-          repository: paranoidnas/paranoidnas.github.io
+          repository: blockcaptain/blockcaptain.github.io
           path: pages
       - name: Publish
         working-directory: pages
