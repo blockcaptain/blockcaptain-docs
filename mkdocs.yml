@@ -10,6 +10,9 @@ theme:
   font:
     text: Fira Sans
     code: Fira Code
+  features:
+    - tabs
+  custom_dir: blkcapt
 markdown_extensions:
   - codehilite
   - admonition
@@ -19,12 +22,17 @@ markdown_extensions:
       base_path: .
 nav:
   - Home: index.md
-  - Getting started: getting-started.md
-  - Design: design.md
-  - Post-Installation: post-install.md
-  - Monitoring: monitoring.md
-  - Cloud Backup: cloud-backup.md
-  - Recovery: recovery.md
-  - System Services: system-services.md
-  - Hosting Services: hosting-services.md
-  - Contributing: contributing.md
+  - BlockCaptain:
+      - Design: blkcapt/design.md
+      - Getting started: blkcapt/getting-started.md
+      - Monitoring: blkcapt/monitoring.md
+      - Cloud Backup: blkcapt/cloud-backup.md
+      - Recovery: blkcapt/recovery.md
+  - NAS:
+      - Design: nas/design.md
+      - Getting started: nas/getting-started.md
+      - Post-Installation: nas/post-install.md
+      - System Services: nas/system-services.md
+      - Hosting Services: nas/hosting-services.md
+  - Development:
+      - Contributing: development/contributing.md
