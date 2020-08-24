@@ -12,7 +12,7 @@ theme:
     code: Fira Code
   features:
     - tabs
-  custom_dir: blkcapt
+  # custom_dir: blkcapt
 markdown_extensions:
   - codehilite
   - admonition
