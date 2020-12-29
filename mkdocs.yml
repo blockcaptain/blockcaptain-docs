@@ -28,11 +28,8 @@ nav:
       - Monitoring: blkcapt/monitoring.md
       - Cloud Backup: blkcapt/cloud-backup.md
       - Recovery: blkcapt/recovery.md
-  - NAS:
-      - Design: nas/design.md
-      - Getting started: nas/getting-started.md
-      - Post-Installation: nas/post-install.md
-      - System Services: nas/system-services.md
-      - Hosting Services: nas/hosting-services.md
+  - Integration:
+      - NAS Distributions: integration/nas.md
+      - Ubuntu: integration/ubuntu.md
   - Development:
       - Contributing: development/contributing.md

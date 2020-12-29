@@ -2,10 +2,6 @@
 
 Make your custom ISO. Burn it. Install on hardware.
 
-## Hardware
-
-paranoidNAS can be virtualized or installed on bare-metal. It is designed for bare-metal. If virtualization is used, full physical disks should be passed to the guest for the data and backup disks.
-
 ## Installation
 
 ### Create an ISO

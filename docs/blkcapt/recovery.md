@@ -1,10 +1,12 @@
 # Recovery
 
-Calm your paranoia by having a plan to handle any situation.
+Planning for recovery with BlockCaptain.
 
 ## File Modification or Deletion
 
-Restore files from earlier snapshosts on data or backup disks.
+* Identify changes with diffing btwen snapshots.
+* Restore files from earlier snapshosts on data or backup disks.
+* or Swap back to old snapshot.
 
 ## Data Filesystem Degraded
 
@@ -20,7 +22,8 @@ Init new. Btrfs send/rcv from backup to main.
 
 ## Operating System Filesystem Failure
 
-Reinstall fresh. Run OS restore cmd.
+* Reinstall fresh. Run OS restore cmd.
+* or.. restore full os backup from live media
 
 ## NAS Burst in to Flames
 

@@ -2,15 +2,11 @@ About the design.
 
 ## Principles
 
-Be paranoid about data loss. The chance of data loss should be virtually 0%. Everything risk that can be reasonably mitigated should be: e.g. silent data corruption ([bitrot](https://en.wikipedia.org/wiki/Data_degradation)), malicious data corruption, complete failure of 1, 2 or all physical disks, an unrecoverable data bug in the cloud backup tool, or forgetting to pay the bill on your cloud storage. 
-
-## Related Tools
-
-ZFS support is in future plans. BlockCaptain should complement [ZSys](https://github.com/ubuntu/zsys). 
+Rigerously evaluate and mitigate failures modes which may lead to data loss. The probability of major data loss should be close to 0%. Every risk that can be reasonably mitigated should be: e.g. silent data corruption ([bitrot](https://en.wikipedia.org/wiki/Data_degradation)), malicious data corruption, complete failure of 1, 2 or all physical disks, an unrecoverable data bug in the cloud backup tool, or forgetting to pay the bill on your cloud storage. 
 
 ## Alternative Tools
 
-BlockCaptain has some intersecting functionality with the following tools. These tools are not full alternatives to BlockCaptain, nor is BlockCaptain a superset of any of these tools.
+BlockCaptain has some intersecting functionality with the following tools. These tools are not full alternatives to BlockCaptain, nor is BlockCaptain a superset of these tools.
 
 ### Btrfs
 
@@ -22,7 +18,7 @@ BlockCaptain has some intersecting functionality with the following tools. These
 
 ### ZFS
 
-There is no ZFS support in BlockCaptain today. [zrepl](https://zrepl.github.io/) is recommended if you need ZFS snapshot management.
+There is no ZFS support in BlockCaptain today. The following tools support ZFS snapshot management.
 
 * [pyznap](https://github.com/yboetz/pyznap) (Python) - ZFS Snapshot management and send/receive snapshots.
 * [Sanoid](https://github.com/jimsalterjrs/sanoid) (Perl) - ZFS Snapshot management and send/receive snapshots.
